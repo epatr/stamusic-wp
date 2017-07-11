@@ -133,7 +133,7 @@ function lighthouse_posted_on() {
 
 	if(comments_open()){	
 		printf(' | </i><span class="screen-reader-text">%1$s </span> ',_x( 'Comments', 'Used before post author name.', 'lighthouse' ));
-		comments_popup_link( __('0 Comment','lighthouse'), __('1 comment','lighthouse'), __('% comments','lighthouse'), 'comments-link', '');
+		comments_popup_link( __('0 Comments','lighthouse'), __('1 comment','lighthouse'), __('% comments','lighthouse'), 'comments-link', '');
 	}
 }
 endif;

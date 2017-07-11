@@ -2234,7 +2234,7 @@ function comment_form( $args = array(), $post_id = null ) {
 		                          ) . '</p>',
 		'comment_notes_before' => '<p class="comment-notes"><span id="email-notes">' . __( 'Your email address will not be published.' ) . '</span>'. ( $req ? $required_text : '' ) . '</p>',
 		'comment_notes_after'  => '',
-		'action'               => site_url( '/wp-comments-post.php' ),
+		'action'               => '/wp-comments-post.php',
 		'id_form'              => 'commentform',
 		'id_submit'            => 'submit',
 		'class_form'           => 'comment-form',
