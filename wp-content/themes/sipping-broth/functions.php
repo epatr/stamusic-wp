@@ -117,7 +117,7 @@ add_action( 'widgets_init', 'sipping_broth_widgets_init' );
  * Enqueue scripts and styles.
  */
 function sipping_broth_scripts() {
-	wp_enqueue_style( 'sipping-broth-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'sipping-broth-style', get_stylesheet_uri(), array(), null );
 
 	wp_enqueue_script( 'sipping-broth-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

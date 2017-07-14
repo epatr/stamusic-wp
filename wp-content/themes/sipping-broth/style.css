@@ -456,7 +456,8 @@ a {
     .main-navigation ul li.focus > ul {
       left: auto; }
   .main-navigation li {
-    float: left;
+    display: inline;
+    padding: inherit .5em;
     position: relative; }
   .main-navigation a {
     display: block;
@@ -694,5 +695,25 @@ object {
 
 .gallery-caption {
   display: block; }
+
+.content-area {
+  float: left;
+  margin: 0 -25% 0 0;
+  width: 100%; }
+
+.site-header {
+  text-align: center; }
+
+.site-main {
+  margin: 0 25% 0 0; }
+
+.site-content .widget-area {
+  float: right;
+  overflow: hidden;
+  width: 25%; }
+
+.site-footer {
+  clear: both;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
